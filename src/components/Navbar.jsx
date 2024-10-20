@@ -2,7 +2,15 @@ import React from 'react'
 import Logo from '../assets/Logo/Logo1.svg'
 import { navLists } from '../data/data'
 
-const Navbar = () => {
+const Navbar = ({scrollToSection, homeRef, aboutRef, servicesRef, projectsRef}) => {
+
+    const sections = {
+        homeRef,
+        aboutRef,
+        servicesRef,
+        projectsRef,
+    };
+
   return (
     <header className='flex justify-center container mx-auto mt-[72px] w-[1240px] h-[50px]'>
         <nav className='flex justify-between items-center w-full font-body'>
@@ -15,7 +23,7 @@ const Navbar = () => {
                 <div className='NavList'>
                     <ul className='flex text-[18px] text-center items-center gap-[50px]'>
                         {navLists.map((list, index) => (
-                            <li key={index}>
+                            <li key={index} onClick={() => scrollToSection(sections[list.section])}>
                                 <button className='text-[#1D1D1D] hover:font-bold duration-100'>{list.name}</button>
                             </li>
                         ))}
