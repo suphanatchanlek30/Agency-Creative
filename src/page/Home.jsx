@@ -22,8 +22,8 @@ const Home = () => {
         </div>
 
         {/* รูปภาพ */}
-        <div className='mt-[4rem] justify-center items-center relative'>
-          <div class="relative top-[120px] right-[100px] border-white shadow-[0px_2px_6px] shadow-[#00000032] text-[#1D1D1D] w-[175px] h-[95px] rounded-3xl bg-[#FFFFFF]  z-40">
+        <div className='mt-[1rem] justify-center items-center relative'>
+          <div className="relative top-[120px] right-[100px] border-white shadow-[0px_2px_6px] shadow-[#00000032] text-[#1D1D1D] w-[175px] h-[95px] rounded-3xl bg-[#FFFFFF]  z-40">
             <div className='p-4 text-center'>
               <div className='flex flex-row gap-1 justify-center items-center text-center mb-2'>
                 <IoIosStar className='text-[#F8BD38] text-[20px]' />
@@ -45,7 +45,7 @@ const Home = () => {
 
           </div>
 
-          <div class="relative top-[-160px] left-[670px] border-white shadow-[0px_2px_6px] shadow-[#00000032] text-[#1D1D1D] w-[166px] h-[166px] rounded-3xl bg-[#FFFFFF] z-30">
+          <div className="relative top-[-160px] left-[670px] border-white shadow-[0px_2px_6px] shadow-[#00000032] text-[#1D1D1D] w-[166px] h-[166px] rounded-3xl bg-[#FFFFFF] z-30">
             <div className='p-4 text-start'>
               <div className='flex flex-row gap-2 justify-start items-center text-start mb-2'>
                 <img src={people} alt="" className='text-start w-[32px] h-[32px]' />
