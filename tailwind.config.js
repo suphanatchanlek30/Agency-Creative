@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {},
     fontFamily: {
-      body: ["Quicksand"]
+      body: ["Quicksand"],
+      body2: ["Nunito"]
     }
   },
   plugins: [],
