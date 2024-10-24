@@ -9,10 +9,10 @@ import { PiPlayCircle } from "react-icons/pi";
 
 const About = () => {
   return (
-    <div className='flex flex-col justify-center container mx-auto mt-[58px] w-[1240px] h-[568px]'>  
+    <div className='flex flex-col justify-center container mx-auto mt-[58px] mb-[58px] w-[1240px] h-[568px]'>  
         {/* text */}
         <div className='text-center'>
-            <h3 className='font-body text-[24px] font-semibold text-[#377DFF] pb-[24px] tracking-[0.1em]'>About Us</h3>
+            <h3 className='font-body text-[24px] font-semibold text-[#377DFF] pb-[12px] tracking-[0.1em]'>About Us</h3>
             <h1 className='font-body2 text-[55px] font-bold text-[#1D1D1D] tracking-[0.03em]'>Our Teammate</h1>
         </div>
 
@@ -26,8 +26,7 @@ const About = () => {
                     <img src={orange} alt="Background Image" className='absolute top-[-18px] right-[540px] object-cover z-10 opacity-100' />
                     <img src={purple} alt="Background Image" className='absolute top-[340px] left-[503px] object-cover z-10 opacity-100' />
                 </div>
-            </div>
-            
+            </div>           
 
             {/* right */}
             <div className='w-1/2 flex flex-col'>
