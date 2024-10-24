@@ -2,6 +2,7 @@ import { useRef } from 'react';
 import './App.css'
 import Navbar from './components/Navbar'
 import Home from './page/Home';
+import About from './page/About';
 
 function App() {
 
@@ -23,12 +24,15 @@ function App() {
     <Navbar
       scrollToSection={scrollToSection}
       homeRef={homeRef}
-      serviceRef={aboutRef}
+      aboutRef={aboutRef}
       servicesRef={servicesRef}
       projectsRef={projectsRef}
     />
     <div ref={homeRef}>
       <Home/>
+    </div>
+    <div ref={aboutRef}>
+      <About/>
     </div>
     
     </div>
