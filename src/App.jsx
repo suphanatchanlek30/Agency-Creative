@@ -3,6 +3,7 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Home from './page/Home';
 import About from './page/About';
+import Services from './page/Services';
 
 function App() {
 
@@ -33,6 +34,9 @@ function App() {
     </div>
     <div ref={aboutRef}>
       <About/>
+    </div>
+    <div ref={servicesRef}>
+      <Services/>
     </div>
     
     </div>

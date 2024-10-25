@@ -9,7 +9,7 @@ import { PiPlayCircle } from "react-icons/pi";
 
 const About = () => {
   return (
-    <div className='flex flex-col justify-center container mx-auto mt-[58px] mb-[58px] w-[1240px] h-[568px]'>  
+    <div className='flex flex-col justify-center container mx-auto mt-[58px] pt-[100px] mb-[58px] w-[1240px] h-[568px]'>  
         {/* text */}
         <div className='text-center'>
             <h3 className='font-body text-[24px] font-semibold text-[#377DFF] pb-[12px] tracking-[0.1em]'>About Us</h3>
