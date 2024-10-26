@@ -5,6 +5,7 @@ import Home from './page/Home';
 import About from './page/About';
 import Services from './page/Services';
 import Project from './page/Project';
+import Testimonial from './page/Testimonial';
 
 function App() {
 
@@ -42,6 +43,7 @@ function App() {
     <div ref={projectsRef}>
       <Project/>
     </div>
+    <Testimonial/>
     
     </div>
   )
