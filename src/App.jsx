@@ -6,6 +6,7 @@ import About from './page/About';
 import Services from './page/Services';
 import Project from './page/Project';
 import Testimonial from './page/Testimonial';
+import Interesting from './page/Interesting';
 
 function App() {
 
@@ -44,6 +45,7 @@ function App() {
       <Project/>
     </div>
     <Testimonial/>
+    <Interesting/>
     
     </div>
   )
