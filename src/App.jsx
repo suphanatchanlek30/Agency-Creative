@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import Home from './page/Home';
 import About from './page/About';
 import Services from './page/Services';
+import Project from './page/Project';
 
 function App() {
 
@@ -37,6 +38,9 @@ function App() {
     </div>
     <div ref={servicesRef}>
       <Services/>
+    </div>
+    <div ref={projectsRef}>
+      <Project/>
     </div>
     
     </div>
