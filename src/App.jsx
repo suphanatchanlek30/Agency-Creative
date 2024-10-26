@@ -7,6 +7,7 @@ import Services from './page/Services';
 import Project from './page/Project';
 import Testimonial from './page/Testimonial';
 import Interesting from './page/Interesting';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -44,8 +45,15 @@ function App() {
     <div ref={projectsRef}>
       <Project/>
     </div>
+
     <Testimonial/>
     <Interesting/>
+    <Footer
+      scrollToSection={scrollToSection}
+      homeRef={homeRef}
+      aboutRef={aboutRef}
+      servicesRef={servicesRef}
+    />
     
     </div>
   )
