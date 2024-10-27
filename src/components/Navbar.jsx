@@ -83,3 +83,5 @@ const Navbar = ({ scrollToSection, homeRef, aboutRef, servicesRef, projectsRef }
 };
 
 export default Navbar;
+
+export default Navbar;
