@@ -82,7 +82,7 @@ const Home = () => {
                          mx-auto'>
             <img src={sky} alt="Background Image" 
                  className='absolute 
-                           top-[180px] sm:top-[-10px] md:top-[-5px] lg:top-[-7px] xl:top-[10px] 2xl:top-[0px]
+                           top-[180px] sm:top-[-10px] md:top-[-5px] lg:top-[-7px] xl:top-[0%] 2xl:top-[0px]
                            left-[0px] sm:left-[100px] md:left-[120px] lg:left-[130px] xl:left-[140px] 2xl:left-[150px]
                            w-[99px] sm:w-[120px] md:w-[130px] lg:w-[140px] xl:w-auto 2xl:w-auto
                            object-cover z-10 opacity-100' />
@@ -92,7 +92,7 @@ const Home = () => {
                            rounded-xl sm:rounded-2xl md:rounded-2xl lg:rounded-3xl xl:rounded-3xl 2xl:rounded-3xl' />
             <img src={red} alt="Background Image" 
                  className='absolute 
-                           top-[0px] sm:top-[280px] md:top-[300px] lg:top-[350px] xl:top-[430px] 2xl:top-[480px]
+                           top-[0px] sm:top-[280px] md:top-[300px] lg:top-[350px] xl:top-[87%] 2xl:top-[480px]
                            left-[258px] sm:left-[100px] md:left-[120px] lg:left-[130px] xl:left-[140px] 2xl:left-[150px]
                            w-[99px] sm:w-[120px] md:w-[130px] lg:w-[140px] xl:w-auto 2xl:w-auto
                            object-cover z-10 opacity-100' />
@@ -100,7 +100,7 @@ const Home = () => {
 
           {/* Testimonial Card */}
           <div className="absolute 
-                         bottom-[-70px] right-[0px]
+                         bottom-[-20%] right-[0px]
                          sm:bottom-auto sm:right-auto sm:top-[-120px] sm:left-[500px]
                          md:top-[180px] md:left-[570px]
                          lg:top-[240px] lg:left-[700px]

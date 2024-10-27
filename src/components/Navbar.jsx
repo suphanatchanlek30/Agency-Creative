@@ -19,7 +19,7 @@ const Navbar = ({ scrollToSection, homeRef, aboutRef, servicesRef, projectsRef }
 
     return (
         <header className='flex justify-center container mx-auto mt-[0px] md:mt-[72px]'>
-            <nav className='flex justify-between fixed items-center w-full h-[50px] font-body px-4 md:px-8 lg:px-12 bg-white z-50'>
+            <nav className='flex justify-between fixed sm:static items-center w-full h-[50px] font-body px-4 md:px-8 lg:px-12 bg-white sm:bg-inherit z-50'>
                 {/* Logo */}
                 <div className='logo'>
                     <img src={Logo} alt="Logo" className='h-10' />
