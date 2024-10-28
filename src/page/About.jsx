@@ -52,7 +52,7 @@ const About = () => {
               alt="Decoration" 
               className="absolute 
                          hidden sm:block
-                         top-[-18px] right-[20%] lg:right-[540px] 
+                         top-[-5%] right-[20%] lg:right-[90%] 
                          w-[60px] sm:w-[80px] md:w-[100px] 
                          object-cover z-10 opacity-100" 
             />
