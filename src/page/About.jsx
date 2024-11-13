@@ -33,7 +33,7 @@ const About = () => {
       </div>
 
       {/* Content Container */}
-      <div className="flex flex-col lg:flex-row justify-center gap-6 sm:gap-8 md:gap-10 lg:gap-6">
+      <div className="flex flex-col lg:flex-row justify-center gap-6 sm:gap-8 md:gap-10 lg:gap-10">
         {/* Left Side - Image */}
         <div className="w-full lg:w-1/2">
           <div className="relative flex justify-center lg:justify-start items-center">
@@ -52,7 +52,7 @@ const About = () => {
               alt="Decoration" 
               className="absolute 
                          hidden sm:block
-                         top-[-5%] right-[20%] lg:right-[90%] 
+                         top-[85%] right-[20%] lg:right-[-5%] 
                          w-[60px] sm:w-[80px] md:w-[100px] 
                          object-cover z-10 opacity-100" 
             />
@@ -61,7 +61,7 @@ const About = () => {
               alt="Decoration" 
               className="absolute 
                          hidden sm:block
-                         top-[80%] left-[20%] lg:left-[503px] 
+                         top-[-3%] left-[20%] lg:left-[-6%] 
                          w-[60px] sm:w-[80px] md:w-[100px] 
                          object-cover z-10 opacity-100" 
             />
@@ -69,27 +69,27 @@ const About = () => {
         </div>
 
         {/* Right Side - Content */}
-        <div className="w-full lg:w-1/2 flex flex-col justify-center">
+        <div className="w-full lg:w-1/2 flex flex-col justify-center gap-[35px]">
           {/* Text Sections */}
           <div className="space-y-4 sm:space-y-6 md:space-y-6">
             <p className="font-body 
-                         text-base sm:text-lg md:text-[20px] 
+                         text-[14px] sm:text-lg md:text-[20px] 
                          font-normal text-[#464646] 
-                         tracking-[0.01em] leading-[1.6]
+                         tracking-[0.01em] leading-[24px]
                          pr-2">
               We move with make a Creative Strategy for help your business goal, we help to improve your income by a services we have. make your content look interesting and make people look for your business
             </p>
             <p className="font-body 
-                         text-base sm:text-lg md:text-[20px] 
+                         text-[14px] sm:text-lg md:text-[20px] 
                          font-normal text-[#464646] 
-                         tracking-[0.01em] leading-[1.6]
+                         tracking-[0.01em] leading-[24px]
                          pr-2">
               We move with make a Creative Strategy for help your business goal, we help to improve your income by a services we have. make your content look interesting and make people look for your business
             </p>
           </div>
 
           {/* Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 mt-6 sm:mt-8 md:mt-6">
+          <div className="flex flex-row justify-center sm:justify-start sm:flex-row gap-[35px] sm:gap-6 mt-4 sm:mt-4 md:mt-2">
             {/* About Us Button */}
             <a href="#" 
                className="bg-[#377DFF] text-white 
@@ -97,10 +97,10 @@ const About = () => {
                          px-8 sm:px-10 md:px-[50px] 
                          py-3 sm:py-3 md:py-[12px] 
                          rounded-[24px] 
-                         w-full sm:w-[171px] 
+                         w-[124px] sm:w-[171px] 
                          h-12 md:h-[48px] 
                          font-body font-bold 
-                         text-base md:text-[16px]
+                         text-[12px] md:text-[16px]
                          flex items-center justify-center">
               About Us
             </a>
@@ -111,11 +111,11 @@ const About = () => {
                          px-8 sm:px-10 md:px-[50px] 
                          py-3 sm:py-3 md:py-[12px] 
                          rounded-[24px] 
-                         w-full sm:w-[210px] 
+                         w-[150px] sm:w-[210px] 
                          h-12 md:h-[48px]">
               <div className="flex justify-center items-center gap-2 sm:gap-[10px]">
                 <PiPlayCircle className="text-xl md:text-[24px] text-[#377DFF]"/>
-                <p className="font-body text-base md:text-[16px] font-semibold">
+                <p className="font-body text-[12px] md:text-[16px] font-semibold">
                   Our Story
                 </p>
               </div>
